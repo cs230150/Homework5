@@ -28,5 +28,12 @@ go.work.sum
 .env
 
 # Editor/IDE
-# .idea/
-# .vscode/
+.idea/
+.vscode/
+
+rm .DS_Store
+rm cmd/.DS_Store
+rm cmd/internal/.DS_Store
+
+# OS
+.DS_Store
